@@ -1,0 +1,23 @@
+[
+    {
+        "repository":   "TheMuppets/proprietary_vendor_asus",
+        "target_path":  "vendor/asus",
+        "revision":     "jellybean"
+    },
+    {
+        "repository":   "TheMuppets/proprietary_vendor_invensense",
+        "target_path":  "vendor/invensense",
+        "revision":     "jellybean"
+    },
+    {
+        "repository":   "TheMuppets/proprietary_vendor_nvidia",
+        "target_path":  "vendor/nvidia",
+        "revision":     "jellybean"
+    },
+    {
+        "repository":   "TheMuppets/proprietary_vendor_widevine",
+        "target_path":  "vendor/widevine",
+        "revision":     "jellybean"
+    }
+
+]
