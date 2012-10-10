@@ -1,6 +1,6 @@
 [
     {
-        "repository":   "TheMuppets/proprietary_vendor_asus",
+        "repository":   "CNA/proprietary_vendor_asus",
         "target_path":  "vendor/asus",
         "revision":     "jellybean"
     },
