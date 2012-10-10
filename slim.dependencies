@@ -2,22 +2,22 @@
     {
         "repository":   "CNA/proprietary_vendor_asus",
         "target_path":  "vendor/asus",
-        "revision":     "jellybean"
+        "branch":     "jellybean"
     },
     {
         "repository":   "TheMuppets/proprietary_vendor_invensense",
         "target_path":  "vendor/invensense",
-        "revision":     "jellybean"
+        "branch":     "jellybean"
     },
     {
         "repository":   "TheMuppets/proprietary_vendor_nvidia",
         "target_path":  "vendor/nvidia",
-        "revision":     "jellybean"
+        "branch":     "jellybean"
     },
     {
         "repository":   "TheMuppets/proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
-        "revision":     "jellybean"
+        "branch":     "jellybean"
     }
 
 ]
