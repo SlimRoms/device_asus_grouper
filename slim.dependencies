@@ -5,6 +5,11 @@
         "branch":     "jb"
     },
     {
+        "repository":   "SlimRoms/proprietary_vendor_broadcom",
+        "target_path":  "vendor/broadcom",
+        "branch":     "jb"
+    },
+    {
         "repository":   "SlimRoms/proprietary_vendor_invensense",
         "target_path":  "vendor/invensense",
         "branch":     "jb"
