@@ -1,0 +1,28 @@
+[
+    {
+        "repository":   "SlimRoms/proprietary_vendor_asus",
+        "target_path":  "vendor/asus",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/proprietary_vendor_broadcom",
+        "target_path":  "vendor/broadcom",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/proprietary_vendor_invensense",
+        "target_path":  "vendor/invensense",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/proprietary_vendor_nvidia",
+        "target_path":  "vendor/nvidia",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/proprietary_vendor_widevine",
+        "target_path":  "vendor/widevine",
+        "branch":     "jb4.2"
+    }
+
+]
