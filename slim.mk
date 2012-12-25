@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Nexus7
+PRODUCT_RELEASE_NAME := grouper
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
