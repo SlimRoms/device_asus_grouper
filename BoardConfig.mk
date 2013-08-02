@@ -40,16 +40,27 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 -include vendor/asus/grouper/BoardConfigVendor.mk
 include device/asus/grouper/BoardConfigCommon.mk
 
+# use the new recovery.fstab
+RECOVERY_FSTAB_VERSION = 2
+
+TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
+
 BOARD_SEPOLICY_DIRS := \
         device/asus/grouper/sepolicy
 
 BOARD_SEPOLICY_UNION := \
         file_contexts \
+        genfs_contexts \
+        app.te \
         btmacreader.te \
+        compatibility.te \
         device.te \
         drmserver.te \
+        init_shell.te \
         file.te \
+        rild.te \
         sensors_config.te \
         shell.te \
         surfaceflinger.te \
-        system.te
+        system.te \
+        zygote.te
