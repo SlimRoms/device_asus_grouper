@@ -14,10 +14,6 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
-#bootanimation
-PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := grouper
 PRODUCT_NAME := slim_grouper
