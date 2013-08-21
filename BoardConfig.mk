@@ -53,14 +53,15 @@ BOARD_SEPOLICY_UNION := \
         genfs_contexts \
         app.te \
         btmacreader.te \
-        compatibility.te \
         device.te \
         drmserver.te \
-        init_shell.te \
         file.te \
+        gpsd.te \
+        init_shell.te \
+        keystore.te \
+        mediaserver.te \
         rild.te \
         sensors_config.te \
-        shell.te \
         surfaceflinger.te \
         system.te \
         zygote.te
