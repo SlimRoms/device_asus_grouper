@@ -81,3 +81,24 @@ BOARD_USES_GROUPER_MODULES := true
 
 # Required for CWM
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+BOARD_SEPOLICY_DIRS := \
+        device/asus/grouper/sepolicy
+
+BOARD_SEPOLICY_UNION := \
+        file_contexts \
+        genfs_contexts \
+        app.te \
+        btmacreader.te \
+        device.te \
+        drmserver.te \
+        file.te \
+        gpsd.te \
+        init_shell.te \
+        keystore.te \
+        mediaserver.te \
+        rild.te \
+        sensors_config.te \
+        surfaceflinger.te \
+        system.te \
+        zygote.te
