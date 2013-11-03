@@ -2,6 +2,6 @@
 <resources>
     <!-- Navigation bar is taller in portrait. -->
     <dimen name="navigation_bar_height">56dp</dimen>
-    <!-- Default maximum height for the widget pager in the keyguard -->
-    <dimen name="keyguard_widget_pager_max_height">560dp</dimen>
+    <!-- Default maximum height for the widget pager in the keyguard
+    <dimen name="keyguard_widget_pager_max_height">560dp</dimen> -->
 </resources>
