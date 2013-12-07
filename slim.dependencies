@@ -33,6 +33,10 @@
         "repository":   "SlimRoms/proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
         "branch":     "kk4.4"
+    },
+    {
+        "repository":   "SlimRoms/kernel_asus_grouper",
+        "target_path":  "kernel/asus/grouper",
+        "branch":     "kk4.4"
     }
-
 ]
