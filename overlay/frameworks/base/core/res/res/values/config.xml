@@ -234,4 +234,7 @@
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">6</integer>
 
+    <!-- Have screen-off animation select menu show up -->
+    <bool name="config_animateScreenLights">false</bool>
+
 </resources>
