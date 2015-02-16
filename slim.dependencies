@@ -2,6 +2,6 @@
     {
         "repository":   "SlimRoms/kernel_asus_grouper",
         "target_path":  "kernel/asus/grouper",
-        "branch":     "kk4.4"
+        "branch":     "lp5.0"
     }
 ]
