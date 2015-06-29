@@ -22,4 +22,4 @@ $(call inherit-product-if-exists, vendor/nvidia/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
 
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+# PRODUCT_RESTRICT_VENDOR_FILES := owner
